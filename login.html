@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- เรียกใช้ไฟล์ CSS ที่ชื่อ styles.css -->
+    <link rel="stylesheet" href="loginStyles.css">
+</head>
+<body>
+    <!-- ส่วนของ container ที่ใช้สำหรับ login -->
+    <div class="login-container">
+        <!-- หัวข้อเรื่องของหน้าเว็บ -->
+        <h2>Login</h2>
+        <!-- ฟอร์มสำหรับการ login -->
+        <form action="login.php" method="POST">
+            <!-- ช่องให้กรอก username -->
+            <label for="text">username</label>
+            <input type="text" name="username" placeholder="Username" required>
+            <!-- ช่องให้กรอก password -->
+            <label for="password">password</label>
+            <input type="password" name="password" placeholder="Password" required>
+            <!-- ปุ่ม submit สำหรับ submit ข้อมูลในฟอร์มไปยังไฟล์ login.php -->
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>

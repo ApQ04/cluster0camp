@@ -1,0 +1,49 @@
+/* CSS สำหรับหน้า menuForm.html */
+
+/* ให้ใช้ฟอนต์แบบ sans-serif หรือ Arial */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* ขนาดของ container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* ใช้ Flexbox เพื่อจัดวางฟอร์ม */
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* จัดวางฟอร์มให้อยู่กลาง */
+}
+
+/* ขนาดของฟอร์ม */
+.form {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ขนาดของหัวข้อฟอร์ม */
+.form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ขนาดของปุ่ม button */
+.form button[type="button"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* การเปลี่ยนสีของปุ่มเมื่อเมาส์ hover อยู่บนปุ่ม */
+.form button[type="button"]:hover {
+    background-color: #0056b3;
+}
